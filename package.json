@@ -1,9 +1,9 @@
 {
   "name": "spacegray-dark-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
-  "repository": "https://github.com/atom/spacegray-dark-syntax",
+  "version": "0.1.0",
+  "description": "Port of the Spacegray Sublime Theme (Default theme - Dark)",
+  "repository": "https://github.com/pauloacmelo/spacegray-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
