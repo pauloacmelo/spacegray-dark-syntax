@@ -1,5 +1,7 @@
-# spacegray-dark-syntax theme
+# Spacegray Dark Syntax Theme
 
-A short description of your theme.
+Port of the [Spacegray](http://kkga.github.io/spacegray) Sublime Theme for Atom Syntax.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+Best used with the [Spacegray Dark UI](https://atom.io/packages/spacegray-dark-ui) theme
+
+![Screenshot](http://recordit.co/tJyAZ2p75C.gif)
