@@ -8,6 +8,14 @@
 .editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
+  
+  &.is-focused {
+    .line {
+      &.cursor-line {
+        background-color: @syntax-selection-color;
+      }
+    }
+  }
 
   .wrap-guide {
     background-color: @syntax-wrap-guide-color;
