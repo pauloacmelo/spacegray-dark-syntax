@@ -1,11 +1,11 @@
 @import "syntax-variables";
 
-.editor-colors, :host {
+atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 }
 
-.editor, :host {
+atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -56,13 +56,13 @@
   }
 }
 
-.editor .search-results .marker .region,
+atom-text-editor .search-results .marker .region,
 :host .search-results .marker .region {
   background-color: transparent;
   border: 1px solid @syntax-result-marker-color;
 }
 
-.editor .search-results .marker.current-result .region,
+atom-text-editor .search-results .marker.current-result .region,
 :host .search-results .marker.current-result .region {
   border: 1px solid @syntax-result-marker-color-selected;
 }
@@ -310,7 +310,7 @@
   }
 }
 
-.editor.mini .scroll-view,
+atom-text-editor[mini] .scroll-view,
 :host(.mini) .scroll-view {
   padding-left: 1px;
 }
